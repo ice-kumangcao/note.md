@@ -1,0 +1,1 @@
++ a socket chat website  can record people what say and who he is 
