@@ -96,4 +96,8 @@ consumer关注指定名称的queue来接收消息，consumer通过直接给队�
 
 > 正如RabbitMQ所说的，`RabbitMQ is a message broker: it accepts and forwards messages. You can think about it as a post office: when you put the mail that you want posting in a post box, you can be sure that Mr. or Ms. Mailperson will eventually deliver the mail to your recipient. In this analogy, RabbitMQ is a post box, a post office and a postman.` 
 >
-> 队列只是一个post box，并且会分发mail给用户。exchange是一个邮局，可以复制mail并将mail发送给post box
+> 队列只是一个post box，并且会分发mail给用户。exchange是一个邮局，可以复制mail并将mail根据用户提供的地址发送给post box
+
+
+
+[Rabbit tutorials](http://www.rabbitmq.com/getstarted.html),[Java Demo](https://github.com/ice-kumangcao/JavaDemo/tree/master/src/main/java/rabbitmq) 
