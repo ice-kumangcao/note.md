@@ -67,4 +67,12 @@ cd /sys/class/backlight/acpi_video0
 cat max_brightness # 最大亮度
 cat brightness # 当前屏幕亮度
 ```
+##### Ubuntu 软件
 
++ freerdp `连接远程window桌面的工具，支持网络身份认证`
+
+  ```shell
+  sudo apt-get install freerdp 会提供几个版本的freerdp，选择其中一个版本下载。
+  # freerdp2命令使用规则与普通的不同，具体看帮助文档
+  sudo apt-get install freerdp2-x11 
+  ```
